@@ -1,10 +1,12 @@
 import React from 'react';
-import MarchSpot from './pages/MarchSpot';
+import MarchSpot from './pages/eventMarch/MarchSpot/MarchSpot';
+import MarchSummary from './pages/eventMarch/MarchSummary/MarchSummary';
 
 function App() {
   return (
-    <div>
+    <div className="event-march">
 		<MarchSpot />
+		<MarchSummary />
 	</div>
   );
 }
