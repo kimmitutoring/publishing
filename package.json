@@ -1,40 +1,38 @@
 {
-  "name": "publishing",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "classnames": "^2.2.6",
-    "node-sass": "^5.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
+  "name": "tutoring",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "gulp": "gulp",
+    "minify": "gulp minify"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.5"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "dependencies": {
+    "bower": "^1.8.8",
+    "global": "^4.3.2",
+    "sass": "^0.5.0"
+  },
+  "description": "npm install gulp@3.9.1 -g",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtutoring/app-publishing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devtutoring/app-publishing/issues"
+  },
+  "homepage": "https://github.com/devtutoring/app-publishing#readme",
+  "keywords": []
 }
