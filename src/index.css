@@ -7,9 +7,6 @@ body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select
 
 body,button,h1,h2,h3,h4,h5,input,select,table,textarea {
     font-family: "NotoSansCJK", "Helvetica Neue", "Apple SD Gothic Noe", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5em;
 }
 
 body {
