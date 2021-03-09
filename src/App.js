@@ -1,5 +1,5 @@
 import React from 'react';
-import MarchSpot from './components/MarchSpot';
+import MarchSpot from './pages/MarchSpot';
 
 function App() {
   return (
